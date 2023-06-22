@@ -6,8 +6,13 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
 }
-
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
     width: 10px;
@@ -31,7 +36,7 @@ nav{
   padding: 20px 0;
   z-index: 998;
   transition: all 0.3s ease;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 nav.sticky{
   background: #4070f4;
@@ -45,8 +50,9 @@ nav .navbar{
   margin: auto;
 }
 nav .navbar .logo a{
-  font-weight: 500;
-  font-size: 35px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
   color: #4070f4;
 }
 nav.sticky .navbar .logo a{
@@ -62,7 +68,7 @@ nav .navbar .menu li{
 }
 .navbar .menu a{
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   color: #0E2431;
   padding: 6px 0;
   transition: all 0.4s ease;
@@ -125,6 +131,9 @@ nav.sticky .menu-btn{
   flex-direction: column;
   justify-content: center;
 }
+.text-two, .text-three {
+  font-family: "Nunito", sans-serif;
+}
 .home .text-one{
   font-size: 25px;
   color: #0E2431;
@@ -132,7 +141,7 @@ nav.sticky .menu-btn{
 .home .text-two{
   color: #0E2431;
   font-size: 75px;
-  font-weight: 600;
+  font-weight: 700;
   margin-left: -3px;
 }
 .home .text-three{
@@ -175,7 +184,7 @@ section{
 section .content{
   width: 80%;
   margin: 40px auto;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 .about .about-details{
   display: flex;
@@ -225,7 +234,7 @@ section .title span::after{
 section  .topic{
   color: #0E2431;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 .about-details .right p{
