@@ -13,6 +13,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
 }
+p{
+  color:#444444
+}
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
     width: 10px;
@@ -67,10 +70,10 @@ nav .navbar .menu li{
   margin: 0 8px;
 }
 .navbar .menu a{
-  font-size: 18px;
+  font-size: 1rem ;
   font-weight: 700;
   color: #0E2431;
-  padding: 6px 0;
+  padding: 10px 0 10px 30px;
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
@@ -131,21 +134,25 @@ nav.sticky .menu-btn{
   flex-direction: column;
   justify-content: center;
 }
-.text-two, .text-three {
+.text-one , .text-two, .text-three {
   font-family: "Nunito", sans-serif;
+  line-height: 1.2;
 }
 .home .text-one{
-  font-size: 25px;
+  font-size: 5.5rem;
+  font-weight: 700;
   color: #0E2431;
 }
 .home .text-two{
   color: #0E2431;
-  font-size: 75px;
+  font-size: 5rem;
   font-weight: 700;
   margin-left: -3px;
 }
 .home .text-three{
-  font-size: 40px;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 30px;
   margin: 5px 0;
   color: #4070f4;
 }
@@ -155,15 +162,18 @@ nav.sticky .menu-btn{
   color: #0E2431;
 }
 .home .button{
+
   margin: 14px 0;
+  margin-top: 30px;
 }
 .home .button button{
   outline: none;
-  padding: 8px 16px;
+  padding: 15px 40px;
   border-radius: 6px;
-  font-size: 25px;
+  font-size: 1.25rem ;
   font-weight: 400;
   background: #4070f4;
+  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
@@ -374,7 +384,25 @@ section .button button:hover{
   text-align: center;
   margin: auto;
 }
+.contact .button
+{
+  margin: 14px 0;
+  margin-top: 30px;
+}
+.contact .button button{
+  outline: none;
+  padding: 15px 40px;
+  border-radius: 6px;
+  font-size: 1.25rem ;
+  font-weight: 400;
+  background: #4070f4;
+  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
 
+}
 /* Footer CSS */
 footer{
   background: #4070f4;
