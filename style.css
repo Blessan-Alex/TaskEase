@@ -33,6 +33,7 @@ p{
     background: #012970;
 }
 /* navbar styling */
+
 nav{
   position: fixed;
   width: 100%;
@@ -511,3 +512,7 @@ footer .text span a:hover{
     color: #012970;
   }
 }
+
+
+
+
