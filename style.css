@@ -138,6 +138,7 @@ nav.sticky .menu-btn{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .home .home-content{
   width: 50%;
@@ -146,6 +147,7 @@ nav.sticky .menu-btn{
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 .home .illustration{
   width: 40%;
@@ -155,13 +157,13 @@ nav.sticky .menu-btn{
   justify-content: center;
 }
 .home .illustration img{
-  height: 28rem ;
-  width: 28rem;
+  /* height: 28rem ;
+  width: 28rem; */
   border-radius: 16px;
 }
 
 .text-one , .text-two, .text-three {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif !important;
   line-height: 1.2;
 }
 .home .text-one{
@@ -177,7 +179,7 @@ nav.sticky .menu-btn{
 }
 .home .text-three{
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 30px;
   margin: 5px 0;
   color: #444444;
@@ -442,6 +444,15 @@ footer .text span a:hover{
 }
 
 @media (max-width: 750px) {
+
+  .home-content  {
+    flex:100%;
+    align-items: center;
+  }
+  .illustration{
+    opacity: 0 ;
+  }
+
   nav .navbar{
     width: 90%;
   }
@@ -478,11 +489,11 @@ footer .text span a:hover{
     display: block;
   }
 
-  .home .text-two{
-    font-size: 65px;
+  .home .text-two, .home .text-one{
+    font-size: 56px;
   }
   .home .text-three{
-    font-size: 35px;
+    font-size: 28px;
   }
   .skills .skills-details{
     align-items: center;
@@ -508,12 +519,13 @@ footer .text span a:hover{
 }
 
 @media (max-width: 500px){
-  .home .text-two{
-    font-size: 55px;
+  .home .text-two, .home .text-one{
+    font-size: 48px;
   }
   .home .text-three{
-    font-size: 33px;
+    font-size: 26px;
   }
+  .home .text-three
   .skills-details .boxes .per{
     font-size: 50px;
     color: #012970;
